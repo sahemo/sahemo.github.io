@@ -107,6 +107,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #287758; outline-offs
 .contact h2 { max-width: 37rem; }
 .contact .eyebrow { color: #d4f8a0; }
 .contact .actions { flex-shrink: 0; }
+.contact-email { display: inline-block; margin-top: .6rem; color: var(--paper); font-size: 1rem; text-decoration-thickness: 1px; text-underline-offset: .22em; }
 .footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.4rem; color: var(--muted); font-size: .82rem; }
 .resume-main { padding-block: clamp(2.6rem, 6vw, 5.2rem); }
 .resume-intro { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding-bottom: 1.8rem; margin-bottom: 2rem; border-bottom: 1px solid var(--line); }
@@ -120,6 +121,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid #287758; outline-offs
 .dates { color: var(--green); font: .72rem/1.55 var(--mono); }
 .company { font-weight: 600; }
 .role p:not(.dates):not(.company) { color: var(--muted); margin-top: .26rem; }
+.role-highlights { color: var(--muted); margin: .5rem 0 0; padding-left: 1.2rem; }
+.role-highlights li { margin: .28rem 0; }
 .resume-sidebar section { background: #eef1e8; border: 1px solid var(--line); border-radius: .75rem; padding: 1.1rem 1.22rem; margin-bottom: .85rem; }
 .resume-sidebar p { color: var(--muted); margin-top: .52rem; }
 .resume-sidebar p > strong { color: var(--ink); }
