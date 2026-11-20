@@ -170,3 +170,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid #287758; outline-offs
   .resume-sidebar section { padding: .5rem .65rem; margin-bottom: .5rem; }
   .role, .resume-sidebar section { break-inside: avoid; }
 }
+
+/* Keep the calendar action visually consistent with the site accent. */
+.contact .booking-button { background: var(--lime); color: #202b19; }
+.contact .booking-button:hover { background: #c9f271; color: #202b19; }
